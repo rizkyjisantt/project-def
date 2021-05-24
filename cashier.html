@@ -6,4 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesin Kasir</title>
 </head>
+<body>
+    <div class="container" id="form">
+        <center><img src="assets/icon.png" alt="MAZETRO" height="80px" width="350px"></center>
+        <form name="form">
+            <table cellpadding="7">
+                <tr>
+                    <td colspan="2">
+                        <label>Nama</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="input_nama" class="input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Kategori</label>
+                    </td>
+                    <td>
+                        <select name="input_barang" onchange="munculhargabarang()">
+                            <option value="baju">--Pilih--</option>
+                            <option value="baju">Baju</option>
+                            <option value="jacket">Jacket</option>
+                            <option value="sweater">Sweater</option>
+                            <option value="sepatu">Sepatu</option>
+                            <option value="sandal">Sandal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Harga<label>
+                    </td>
+                    <td>
+                        <input type="text" name="output_hargabarang" size=10>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
 </html>
