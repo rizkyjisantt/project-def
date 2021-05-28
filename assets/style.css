@@ -1,1 +1,19 @@
-
+.container {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(24, 90, 90);
+    box-shadow: -7px -7px 5px black;
+    border: solid 5px rgb(105, 104, 104);
+}
+table {
+    color: white;
+    margin: auto;
+}
+body {
+    background-color: rgb(24, 102, 245);
+}
