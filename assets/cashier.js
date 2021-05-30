@@ -19,3 +19,8 @@ function apakahmember(){
 function totalharga(){
   var jumlahbarang = (document.form.input_jumlahbarang.value);
   document.form.output_totalharga.value=eval(jumlahbarang)*(eval(document.form.output_hargabarang.value))-eval(document.form.output_diskon.value);
+}
+function kembali(){
+  var bayar = (document.form.input_tunai.value)
+  document.form.output_kembali.value=eval(bayar)-(eval(document.form.output_totalharga.value))
+}
