@@ -24,3 +24,18 @@ function kembali(){
   var bayar = (document.form.input_tunai.value)
   document.form.output_kembali.value=eval(bayar)-(eval(document.form.output_totalharga.value))
 }
+function cetakstruk(){
+  var cetak = "Nama          :  "+document.form.input_nama.value+"</br>"+
+              "---------------------------------------------------"+"</br>"+
+              "Kategori      :  "+document.form.input_barang.value+"</br>"+
+              "Harga         :  "+document.form.output_hargabarang.value+"</br>"+
+              "Diskon        :  "+document.form.output_diskon.value+"</br>"+
+              "Jumlah_Beli   :  "+document.form.input_jumlahbarang.value+"</br>"+
+              "---------------------------------------------------"+"</br>"+
+              "Total_Harga   :  "document.form.output_totalharga.value+"</br>"+
+              "Tunai         :  "document.form.input_tunai.value+"</br>"+
+              "Kembali       :  "document.form.output_kembali.value+"</br>";
+  document.getElementById("cetak").innerHTML=cetak;
+  document.getElementById("form").style.display="none";
+  document.getElementById("hasil").style.display="block";
+}
