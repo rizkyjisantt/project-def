@@ -9,3 +9,10 @@ function munculhargabarang(){
   else if(tujuan == "sandal"){hargabarang = 15000;}
   document.form.output_hargabarang.value=eval(hargabarang);
 }
+function apakahmember(){
+  if(document.form.memberbukan.checked == true){diskon = 0.10;}
+  else{
+    diskon = 0;
+  }
+  document.form.output_diskon.value=eval(diskon)*(eval(document.form.output_hargabarang.value));
+}
