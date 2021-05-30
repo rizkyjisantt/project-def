@@ -16,3 +16,6 @@ function apakahmember(){
   }
   document.form.output_diskon.value=eval(diskon)*(eval(document.form.output_hargabarang.value));
 }
+function totalharga(){
+  var jumlahbarang = (document.form.input_jumlahbarang.value);
+  document.form.output_totalharga.value=eval(jumlahbarang)*(eval(document.form.output_hargabarang.value))-eval(document.form.output_diskon.value);
