@@ -37,5 +37,13 @@ function cetakstruk(){
               "Kembali       :  "document.form.output_kembali.value+"</br>";
   document.getElementById("cetak").innerHTML=cetak;
   document.getElementById("form").style.display="none";
+  document.getElementById("team").style.display="none";
   document.getElementById("hasil").style.display="block";
+}
+function tentangkami(){
+  document.getElementById("form").style.display="none";
+  document.getElementById("hasil").style.display="none";
+  document.getElementById("team").style.display="none";
+  document.getElementById("about").style.display="block";
+  document.getElementById("back").style.display="block";
 }
