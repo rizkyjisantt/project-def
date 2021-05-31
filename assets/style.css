@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(24, 102, 245);
+}
+
+/* Form Inputan */
 .container {
     width: 700px;
     height: 500px;
@@ -14,9 +19,6 @@ table {
     color: white;
     margin: auto;
 }
-body {
-    background-color: rgb(24, 102, 245);
-}
 form {
     line-height: 2em;
 }
@@ -30,6 +32,8 @@ label, select {
 .input {
     width: 220px;
 }
+
+/* Cetak Struk */
 #hasil {
     margin: auto;
     border: solid 3px black;
@@ -37,10 +41,28 @@ label, select {
     height: 500px;
     display: none;
     padding: 20px;
+    background-color: white;
 }
 .text {
     text-align: center;
     line-height: 1;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* tentang kami */
+div.gallery {
+  margin-left: 120px;
+  margin-right: 90px;
+  border: 1px solid rgb(56, 56, 56);
+  float: left;
+  width: 180px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
