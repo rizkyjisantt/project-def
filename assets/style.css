@@ -1,5 +1,6 @@
 body {
     background-color: rgb(24, 102, 245);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Form Inputan */
@@ -65,4 +66,12 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+i{
+  color: rgb(51, 51, 51);
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+i:hover{
+  color: rgba(71, 71, 71, 0.521);
 }
