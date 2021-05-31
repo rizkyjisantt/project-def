@@ -67,11 +67,36 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-i{
+i  {
   color: rgb(51, 51, 51);
   font-size: 45px;
   margin-bottom: 15px;
 }
-i:hover{
+i:hover {
   color: rgba(71, 71, 71, 0.521);
+}
+#about {
+  display: none;
+  margin:auto;
+  width: 1200px;
+  padding: 20px;
+  overflow: hidden;
+}
+.btn {
+  background-color: #c5c5c5;
+  color: #383838;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid #303030;
+  border-radius: 8px;
+  box-shadow: 0 10px #303030, 0 15px rgba(0, 0, 0, 0.4);
+}
+.btn:active {
+  top: 10px;
+  box-shadow: 0 7px rgba(0, 0, 0, 0.4);
 }
